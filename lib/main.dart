@@ -8,14 +8,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       // Application name
-      title: 'Flutter Hello World',
+      title: 'my flutter app',
       // Application theme data, you can set the colors for the application as
       // you want
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       // A widget which will be started on application startup
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Flutter رائع'),
     );
   }
 }
@@ -34,7 +34,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          'Hello, World!',
+          'السلام عليكم',
         ),
       ),
     );
